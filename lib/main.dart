@@ -106,6 +106,7 @@ class Circle extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint = Paint();
+
     paint.color = Color(0xff20D2BA);
     paint.style = PaintingStyle.fill;
     paint.strokeCap = StrokeCap.round;
